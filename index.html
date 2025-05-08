@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Моё портфолио</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- AOS стили для анимаций -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Иконки Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-/...ваш-код..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- Боковое меню -->
+<aside class="sidebar">
+    <nav>
+        <ul>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+</aside>
+
+<!-- Основной контент -->
+<main class="main-content">
+    <section id="gallery" class="gallery-section">
+        <h1 data-aos="fade-up">Галерея</h1>
+
+        <!-- Фотография 1 -->
+        <div class="photo-block" data-aos="fade-up">
+            <div class="photo-info">
+                <h2>Ярославь, Россия</h2>
+                <p class="date">август 2024</p>
+                <p class="caption">Вечер. Парк Подзеленье. Всё тихо...</p>
+            </div>
+            <div class="photo-frame">
+                <img src="photos/2.jpg" alt="Ярик" />
+            </div>
+        </div>
+
+        <div class="photo-block" data-aos="fade-up">
+            <div class="photo-info">
+                <h2>Раменский район, Московская область, Россия</h2>
+                <p class="date">август 2025</p>
+                <p class="caption">Если бы знали Вы как мне дороги Подмосковные вечера...</p>
+            </div>
+            <div class="photo-frame">
+                <img src="photos/3.jpg" alt="МО" />
+            </div>
+        </div>
+
+        <div class="photo-block" data-aos="fade-up">
+            <div class="photo-info">
+                <h2>Москва, Россия</h2>
+                <p class="date">апрель 2025</p>
+                <p class="caption">Прогулка после рабочего дня - важный ежедневный ритуал полезный для развития навыка замечать красоту вокруг</p>
+            </div>
+            <div class="photo-frame">
+                <img src="photos/9.jpg" alt="М" />
+            </div>
+        </div>
+
+        <!-- Добавьте дополнительные фотографии по аналогии -->
+    </section>
+
+    <section id="about" class="about-section" data-aos="fade-up">
+        <h2>Обо мне</h2>
+        <p>Я фотограф-любитель, вдохновлён природой, зелёными ландшафтами и атмосферой тишины.</p>
+    </section>
+
+    <section id="contacts" class="contacts-section" data-aos="fade-up">
+        <h2>Контакты</h2>
+        <p>Почта: s0rryman@mail.ru</p>
+
+        <div class="social-icons">
+            <a href="https://vk.com/boyakii" target="_blank" title="VK">
+                <i class="fab fa-vk"></i>
+            </a>
+            <a href="https://t.me/imaki1" target="_blank" title="Telegram">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <a href="mailto:s0rryman@mail.ru" title="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </section>
+</main>
+
+<!-- AOS скрипт для анимаций -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
